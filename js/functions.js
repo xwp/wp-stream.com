@@ -202,20 +202,6 @@
 			});
 		}
 
-		/*Smooth page scroll function*/
-		var is_chrome = navigator.userAgent.indexOf('Chrome') > -1;
-		var is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
-		var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
-		var is_opera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
-
-		if((is_chrome)||(is_explorer)||(is_firefox)||(is_opera)){
-			$.srSmoothscroll({
-				step: 250,
-				speed: 1000,
-				ease: 'swing'
-			});
-		}
-
 		/* Ticker */
 		var words = $('.words')
         if (words.length == 1) {
