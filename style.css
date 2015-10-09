@@ -852,13 +852,31 @@ p.section-description {
 	color: #2A8FBD;
 }
 
-.copyrights {
+.copyright {
 	text-align: center;
 	color: #8d8d8d;
 }
 
-.copyrights .xwp {
-	padding-top: 1em;
+.copyright .xwp a {
+	opacity: 0.33;
+	filter: gray;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+
+.copyright .xwp a:hover {
+	opacity: 1;
+	filter: none;
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}
+
+.copyright .xwp img {
+	margin-top: 1em;
+	max-width: 80px;
 }
 
 .content-area{
