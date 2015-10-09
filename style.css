@@ -666,10 +666,9 @@ p.section-description {
 }
 
 .testimonial-slider {
-	background: #424242;
-	color: #fff;
+	color: #424242;
 	text-align: center;
-	padding: 56px 0 34px 0;
+	padding: 15px 0 0 30px 0;
 }
 
 .testimonial-slider .item i {
@@ -680,14 +679,12 @@ p.section-description {
 	font-size: 24px;
 	padding: 0 25%;
 	line-height: 32px;
-	margin-top: 34px;
-	margin-bottom: 44px;
+	margin: 30px 0;
 }
 
 .testimonial-slider .item span {
 	font-size: 15px;
 	display: inline-block;
-	margin-bottom: 40px;
 }
 
 .testimonial-slider .owl-theme .owl-controls .owl-dot span{
