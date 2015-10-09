@@ -363,17 +363,25 @@ p.section-description {
 	padding-top: 10px;
 }
 
+.about-section .screen {
+	margin-top: 30px;
+}
+
+.about-section .screen img {
+	border: 1px solid #e5e5e5;
+}
+
 /* ## About Section ## */
 .quote {
 	color: #000 !important;
- display: inline-block;
+	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
- font-size: 80px!important;
- font-weight: 400;
- left: 12px;
- margin-top: 0 !important;
- position: absolute;
- top: 14px;
+	font-size: 80px!important;
+	font-weight: 400;
+	left: 12px;
+	margin-top: 0 !important;
+	position: absolute;
+	top: 14px;
 
 }
 
@@ -914,7 +922,6 @@ p.section-description {
 	text-decoration: none;
 }
 
-/* ## Index 2 */
 .slider-section {
 	background: #242424;
 	color: #fff;
