@@ -397,6 +397,10 @@ p.section-description {
 	letter-spacing: 3px;
 }
 
+.slider-section small {
+	color: #ccc;
+	padding-top: 10px;
+}
 
 /* ## About Section ## */
 .quote {
