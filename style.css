@@ -482,11 +482,11 @@ h5 {
 }
 
 .feature:hover .icon-holder {
-	top: -30px;
+	transform: translateY(-104px);
 }
 
 .feature:hover .heading {
-	top: -30px;
+	transform: translateY(-104px);
 }
 
 .feature .description {
