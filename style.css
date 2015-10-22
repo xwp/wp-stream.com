@@ -825,12 +825,18 @@ p.section-description {
 
 .contributors-individual {
 	margin-top: 28px;
+	padding: 0 10px;
+}
+
+.contributors-individual-box {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .contributors-individual-box h3 {
-	font-size: 14px;
-	margin-top: 10px;
-	margin-bottom: 18px;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 12px;
 	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;

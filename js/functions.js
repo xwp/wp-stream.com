@@ -287,14 +287,14 @@
 				data.reverse();
 				$.each( data, function( key, val ) {
 					var contributor = $( '<div class="item">' );
-					contributor.append( '<div class="contributors-individual-box col-sm-2 col-xs-3">' );
+					contributor.append( '<div class="contributors-individual-box col-sm-1 col-xs-2">' );
 
 					var author = val.author;
 					var authorName = $( '<h3>' + author.login + '</h3>' );
 					var authorAvatar = $( '<div class="contributors-individual-img-box"><img src="' + author.avatar_url + '" alt="' + author.login + '"></div>' );
 					contributor.find( '.contributors-individual-box' ).append( authorAvatar );
 					contributor.find( '.contributors-individual-box' ).append( authorName );
-					contributor.find( '.contributors-individual-box' ).wrapInner( '<a href="' + author.html_url + '"></a>' );
+					contributor.find( '.contributors-individual-box' ).wrapInner( '<a href="' + author.html_url + '" title="' + author.login + '"></a>' );
 
 					$( '.contributors-individual' ).append( contributor );
 				});
