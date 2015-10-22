@@ -160,12 +160,13 @@
 			$("#testimonial-slider").owlCarousel(
 			{
 				autoplay: true,
+				autoplayTimeout: 10000,
 				touchDrag: true,
 				mouseDrag: true,
 				loop:true,
 				margin:10,
 				nav: false,
-				dots: false,
+				dots: true,
 				responsive:{
 					0:{
 						items:1

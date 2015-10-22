@@ -656,6 +656,10 @@ p.section-description {
 
 }
 
+.testimonial-section .owl-theme .owl-controls .owl-dots {
+	margin-top: 20px;
+}
+
 #testimonial-section .lets-talk-img {
 	background-image: url("images/testimonial/testimonial-bg.jpg");
 }
