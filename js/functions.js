@@ -257,6 +257,29 @@
 			tl.play();
 		}
 
+		$( '.unsure' ).on( 'click', function( e ) {
+			e.preventDefault();
+
+			var gif = $( '.animated-install' ).find( 'img' ).eq( 0 ),
+			    gifsrc = gif.attr( 'src' ),
+			    gifsrcset = gif.attr( 'srcset' );
+
+			gif.attr( 'src', '' );
+			gif.attr( 'srcset', '' );
+			gif.attr( 'src', gifsrc );
+			gif.attr( 'srcset', gifsrcset );
+
+			$( '.install' ).slideUp();
+			$( '.animated-install' ).slideDown();
+		})
+
+		$( '.sure' ).on( 'click', function( e ) {
+			e.preventDefault();
+
+			$( '.install' ).slideDown();
+			$( '.animated-install' ).slideUp();
+		})
+
 		function loadIndividualContributors() {
 			var githubAPIURL = 'https://api.github.com/repos/xwp/stream/stats/contributors';
 

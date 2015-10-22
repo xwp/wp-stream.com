@@ -384,6 +384,10 @@ p.section-description {
 	margin-left: 0.5em;
 }
 
+.slider-section .animated-install {
+	display: none;
+}
+
 .about-section .screen {
 	margin-top: 30px;
 }
