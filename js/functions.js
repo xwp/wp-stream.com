@@ -272,7 +272,7 @@
 					var authorAvatar = $( '<div class="contributors-individual-img-box"><img src="' + author.avatar_url + '" alt="' + author.login + '"></div>' );
 					contributor.find( '.contributors-individual-box' ).append( authorAvatar );
 					contributor.find( '.contributors-individual-box' ).append( authorName );
-					contributor.find( '.contributors-individual-box' ).wrapInner( '<a href="' + author.url + '"></a>' );
+					contributor.find( '.contributors-individual-box' ).wrapInner( '<a href="' + author.html_url + '"></a>' );
 
 					$( '.contributors-individual' ).append( contributor );
 				});
