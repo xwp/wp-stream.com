@@ -11,15 +11,15 @@
 		/*** set sticky menu ***/
 		if( scroll >= 90 )
 		{
-			$('.header-section').addClass("navbar-fixed-top animated fadeInDown").delay( 2000 ).fadeIn();
+			$('.header-section').addClass("navbar-fixed-top fadeInDown").delay( 2000 );
 		}
 		else if ( scroll <= height )
 		{
-			$('.header-section').removeClass("navbar-fixed-top animated fadeInDown");
+			$('.header-section').removeClass("navbar-fixed-top fadeInDown");
 		}
 		else
 		{
-			$('.header-section').removeClass("navbar-fixed-top animated fadeInDown");
+			$('.header-section').removeClass("navbar-fixed-top fadeInDown");
 		} // set sticky menu - end
 
 	});
@@ -97,31 +97,6 @@
 			redirectWindow.location;
 		});
 
-		/***********************************/
-		/* ANIMSITION PLUGIN*/
-		/**********************************/
-
-		if($(".animsition").length){
-			$(".animsition").animsition({
-		inClass               :   'fade-in-down',
-		outClass              :   'fade-out-up',
-		inDuration            :    600,
-		outDuration           :    800,
-		linkElement           :   '.animsition-link',
-		   // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-		loading               :    false,
-		loadingParentElement  :   'body',
-		loadingClass          :   'animsition-loading',
-		unSupportCss          : [ 'animation-duration',
-								  '-webkit-animation-duration',
-								  '-o-animation-duration'
-								],
-		overlay               :   false,
-
-		overlayClass          :   'animsition-overlay-slide',
-		overlayParentElement  :   'body'
-		});
-		}
 		/* Window Hight Set to Elements /- */
 		var window_height = $(window).height();
 		var window_width = $(window).width();
