@@ -26,8 +26,7 @@
 	/* Event - Window Scroll /- */
 
 	/* Event - Document Ready /- */
-	$(document).ready(function($)
-	{
+	$(document).ready(function($) {
 		var scroll	=	$(window).scrollTop();
 		var height	=	$(window).height();
 
@@ -205,14 +204,14 @@
 
 		/* Ticker */
 		var words = $('.words')
-        if (words.length == 1) {
-            words.on('switched', function() {
-                var timeout = setTimeout(function() {
-                    animateWords(words);
-                }, 1500);
-                words.data('timeout', timeout);
-            }).trigger('switched');
-        }
+		if (words.length == 1) {
+			words.on('switched', function() {
+				var timeout = setTimeout(function() {
+					animateWords(words);
+				}, 1500);
+				words.data('timeout', timeout);
+			}).trigger('switched');
+		}
 
 		function animateWords(words) {
 			var activeWord = words.find('.is-active');
@@ -257,8 +256,32 @@
 			});
 			tl.play();
 		}
+
+		function loadIndividualContributors() {
+			var githubAPIURL = 'https://api.github.com/repos/xwp/stream/stats/contributors';
+
+			$.getJSON( githubAPIURL, function( data ) {
+				data.reverse();
+				$.each( data, function( key, val ) {
+					var contributor = $( '<div class="item">' );
+					contributor.append( '<div class="col-md-2">' );
+					contributor.find( '.col-md-2' ).append( '<div class="contributors-individual-box">' );
+
+					var author = val.author;
+					var authorName = $( '<h3>' + author.login + '</h3>' );
+					var authorAvatar = $( '<div class="contributors-individual-img-box"><img src="' + author.avatar_url + '" alt="' + author.login + '"></div>' );
+					contributor.find( '.contributors-individual-box' ).append( authorAvatar );
+					contributor.find( '.contributors-individual-box' ).append( authorName );
+					contributor.find( '.contributors-individual-box' ).wrapInner( '<a href="' + author.url + '"></a>' );
+
+					$( '.contributors-individual' ).append( contributor );
+				});
+			});
+		}
+		loadIndividualContributors();
+
 		var y, E = $(window);
-    	});
+	});
 	/* document.ready /- */
 
 	$('.modal-backdrop').remove();
