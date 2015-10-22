@@ -762,8 +762,8 @@ p.section-description {
 }
 
 .content-area-section .small-btn {
-	position: relative;
-	top: 10px;
+	display: inline-block;
+	margin-top: 10px;
 }
 
 .content-area-section iframe {
