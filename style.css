@@ -396,6 +396,8 @@ p.section-description {
 	padding: 20px;
 	background: #2a8fbd;
 	color: #fff;
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 .about-section .col-md-4 > h4 {
