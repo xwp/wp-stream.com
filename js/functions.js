@@ -264,8 +264,7 @@
 				data.reverse();
 				$.each( data, function( key, val ) {
 					var contributor = $( '<div class="item">' );
-					contributor.append( '<div class="col-md-2">' );
-					contributor.find( '.col-md-2' ).append( '<div class="contributors-individual-box">' );
+					contributor.append( '<div class="contributors-individual-box col-sm-2 col-xs-3">' );
 
 					var author = val.author;
 					var authorName = $( '<h3>' + author.login + '</h3>' );

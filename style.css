@@ -811,6 +811,9 @@ p.section-description {
 	margin-top: 10px;
 	margin-bottom: 18px;
 	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .contributors-individual-box a {
