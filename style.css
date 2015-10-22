@@ -133,6 +133,10 @@ h5 {
 
 .section-header h3 {
 	margin: 0;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0.75px;
+	font-size: 24px;
 }
 
 p.section-description {
@@ -176,8 +180,8 @@ p.section-description {
 
 .header-section .logo-block a .logo-dark {
 	left: 14px;
- position: absolute;
- top: 11px;
+	 position: absolute;
+	 top: 11px;
 	opacity:0;
 	-webkit-transition: all 0.15s ease-out;
 	-moz-transition: all 0.15s ease-out;
@@ -891,6 +895,9 @@ p.section-description {
 	color: #424242;
 	font-size: 42px;
 	text-decoration: none;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
 }
 
 .social ul li a:hover {
