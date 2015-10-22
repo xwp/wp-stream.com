@@ -433,7 +433,6 @@ p.section-description {
 
 .feature {
 	width: 100%;
-	height: 280px;
 	text-align: center;
 	border: 1px solid #ddd;
 	-webkit-transition: all 0.3s ease;
@@ -446,21 +445,14 @@ p.section-description {
 }
 
 .feature .icon-holder {
-	position: relative;
-	top: 74px;
 	display: inline-block;
-	margin-bottom: 40px;
+	margin: 20px 0;
 	padding: 10px;
 	background: white;
-	-webkit-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 }
 
 .feature .heading {
-	position: relative;
-	top: 57px;
-	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	margin: 0 0 20px;
 }
 
 .feature .icon-holder > img.icon {
@@ -471,30 +463,9 @@ p.section-description {
 	border-color: #000;
 }
 
-.feature:hover .icon-holder {
-	transform: translateY(-104px);
-}
-
-.feature:hover .heading {
-	transform: translateY(-104px);
-}
-
 .feature .description {
 	width: 80%;
-	margin: 0 auto;
-	opacity: 0;
-	-webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	-webkit-transform: scale(0);
-	-ms-transform: scale(0);
-	transform: scale(0);
-}
-
-.feature:hover .description {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
+	margin: 0 auto 30px auto;
 }
 
 .features-box {
@@ -518,9 +489,9 @@ p.section-description {
 	margin: 0;
 	border: none;
 	-webkit-transition: all 0.5s ease;
- -moz-transition: all 0.5s ease;
- -o-transition: all 0.5s ease;
- transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .features-box li a i {
@@ -537,9 +508,9 @@ p.section-description {
 	border: none;
 	background-color: transparent;
 	-webkit-transition: all 0.5s ease;
- -moz-transition: all 0.5s ease;
- -o-transition: all 0.5s ease;
- transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 /* ## Connectors Section ## */
