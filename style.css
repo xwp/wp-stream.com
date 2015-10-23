@@ -936,7 +936,7 @@ p.section-description {
 
 .social ul {
 	text-align: center;
-	margin: 22px 0 88px;
+	margin: 20px 0;
 	padding: 0;
 }
 
@@ -947,7 +947,7 @@ p.section-description {
 
 .social ul li a {
 	color: #424242;
-	font-size: 42px;
+	font-size: 32px;
 	text-decoration: none;
 	-webkit-transition: all 0.15s ease-out;
 	-moz-transition: all 0.15s ease-out;
