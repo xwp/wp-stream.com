@@ -246,14 +246,14 @@
 
 			$( '.install' ).slideUp();
 			$( '.animated-install' ).slideDown();
-		})
+		});
 
 		$( '.sure' ).on( 'click', function( e ) {
 			e.preventDefault();
 
 			$( '.install' ).slideDown();
 			$( '.animated-install' ).slideUp();
-		})
+		});
 
 		function loadIndividualContributors() {
 			var githubAPIURL = 'https://api.github.com/repos/xwp/stream/stats/contributors';
