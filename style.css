@@ -783,7 +783,7 @@ p.section-description {
 	-ms-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	padding: 20px;
-	height: 243px;
+	min-height: 243px;
 }
 
 .content-area-section .extensions-box:hover {

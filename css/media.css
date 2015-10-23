@@ -172,10 +172,25 @@
 
 /* ## min-width: 319 to max-width: 767 */
 @media only screen and (min-width: 319px) and (max-width: 767px) {
+	.features-section {
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+
+	.content-area-section .section-header {
+		margin-bottom: 15px;
+	}
+
+	.features-section .feature,
+	.content-area-section .extensions-box {
+		margin-bottom: 15px;
+	}
+
 	.rotator-wrap {
 		min-width: 190px;
 		text-align: left;
 	}
+
 	.container {
 		width: 100%;
 	}
