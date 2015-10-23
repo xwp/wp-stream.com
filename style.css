@@ -814,6 +814,11 @@ p.section-description {
 	transition: all ease 0.5s;
 }
 
+.contributors-section .small-btn {
+	display: inline-block;
+	margin-top: 10px;
+}
+
 .contributors-section .owl-theme .owl-controls  {
 	margin-top: 38px;
 }

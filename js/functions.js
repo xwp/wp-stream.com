@@ -277,6 +277,21 @@
 		}
 		loadIndividualContributors();
 
+		function loadOpenIssues() {
+			var githubAPIURL = 'https://api.github.com/repos/xwp/stream/issues?q=state:open';
+
+			$.getJSON( githubAPIURL, function( data ) {
+				var issuesCount = 0;
+				$.each( data, function( key, val ) {
+					if ( 'undefined' === typeof val.pull_request ) {
+						issuesCount++;
+					}
+				});
+				$( '.open-issues' ).append( issuesCount );
+			});
+		}
+		loadOpenIssues();
+
 		var y, E = $(window);
 	});
 	/* document.ready /- */
