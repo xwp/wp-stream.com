@@ -536,9 +536,6 @@ p.section-description {
 
 .connectors-img-box img {
 	width: 100%;
-	transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-webkit-transition: all 0.2s ease;
 }
 
 .connectors-img-box ul {
@@ -580,10 +577,12 @@ p.section-description {
 	border: 1px solid transparent;
 }
 
+.connectors-img-box,
 .connectors-img-box ul,
 .connectors-img-box:hover ul,
 .connectors-img-box:before,
-.connectors-img-box:hover:before {
+.connectors-img-box:hover:before,
+.connectors-img-box img {
 	transition: opacity 0.2s;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
