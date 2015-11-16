@@ -793,7 +793,7 @@ p.section-description {
 }
 
 .content-area-section .dev-docs {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .content-area-section .extensions-box .extensions-icon {
@@ -823,9 +823,9 @@ p.section-description {
 	margin-bottom: 0;
 }
 
-.content-area-section .extensions-box .small-btn {
+.content-area-section .small-btn {
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .content-area-section iframe {
