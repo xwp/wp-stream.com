@@ -792,8 +792,8 @@ p.section-description {
 	box-shadow: inset 0 0 0 1px rgba(0,0,0,1);
 }
 
-.content-area-section .extensions-box.dev-docs {
-	padding-top: 80px;
+.content-area-section .dev-docs {
+	padding-top: 50px;
 }
 
 .content-area-section .extensions-box .extensions-icon {
