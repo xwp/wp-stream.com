@@ -1080,12 +1080,11 @@ p.section-description {
 .text-slider p {
 	display: block;
 	float: none;
-	font-size: 20px;
+	font-size: 24px;
 	padding: 0 25px 0 0;
 }
 
 .text-slider p.tagline {
-	font-size: 24px;
 	padding-top: 25px;
 }
 
