@@ -55,6 +55,10 @@ h5 {
 	width: 1em;
 }
 
+.hidden {
+	display: none;
+}
+
 .logo-block,
 .menu-block .navbar-nav > li > a,
 .slider-section .slide-title h3,
@@ -1076,13 +1080,19 @@ p.section-description {
 .text-slider p {
 	display: block;
 	float: none;
-	font-size: 18px;
-	padding: 25px 25px 0 0;
+	font-size: 20px;
+	padding: 0 25px 0 0;
+}
+
+.text-slider p.tagline {
+	font-size: 24px;
+	padding-top: 25px;
 }
 
 .text-slider p.install-title {
 	font-size: 20px;
 	font-style: italic;
+	padding-top: 25px;
 }
 
 @-webkit-keyframes fadeInDown {
