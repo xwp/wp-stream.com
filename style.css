@@ -1086,6 +1086,7 @@ p.section-description {
 
 .text-slider p.tagline {
 	padding-top: 25px;
+	margin: 0;
 }
 
 .text-slider p.install-title {
